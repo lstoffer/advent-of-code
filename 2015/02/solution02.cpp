@@ -56,7 +56,7 @@ void partOne(std::vector<std::string>& lines) {
 }
 
 
-int main() {
+int mainnn() {
     std::ifstream file("/home/lucst/Documents/git/private/advent-of-code/2015/02/input.txt");
 
     std::vector<std::string> lines;
