@@ -1,3 +1,0 @@
-/home/lucst/Documents/git/private/advent-of-code/cmake-build-debug/CMakeFiles/advent_of_code.dir
-/home/lucst/Documents/git/private/advent-of-code/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/lucst/Documents/git/private/advent-of-code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
