@@ -1,10 +1,11 @@
-cmake_minimum_required(VERSION 3.29)
+cmake_minimum_required(VERSION 3.28)
 project(advent_of_code)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
 
-add_executable(advent_of_code
-    2015/01/solution01.cpp
-        2015/02/solution02.cpp
-        2015/03/solution03.cpp
-        2015/04/solution05.cpp)
+set(TARGET_NAME advent_of_code)
+
+file(GLOB_RECURSE SOURCE_FILES ${CMAKE_SOURCE_DIR}/src/*.cpp)
+add_executable(${TARGET_NAME} ${SOURCE_FILES})
+
+target_include_directories(${TARGET_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/public_include)
